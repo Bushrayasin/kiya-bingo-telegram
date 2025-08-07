@@ -35,8 +35,8 @@ const commandHandlers = {
         inline_keyboard: [
           [{ text: "Play 🎮", callback_data: "play" }, { text: "Register 👤", callback_data: "register" }],
           [{ text: "Deposit 💰", callback_data: "deposit" }, { text: "Withdraw 💸", callback_data: "withdrawal" }],
-          // [{ text: "Check Telebirr Deposit", callback_data: "txChecker" }, { text: "Check CBE Deposit", callback_data: "txCheckerCbeBank" }],
-          [{ text: "Balance 💰", callback_data: "balance" },{ text: "Transfer Balance 💳", callback_data: "transfer" },],
+          // [{ text: "Check Telebirr Deposit"100000000, callback_data: "txChecker" }, { text: "Check CBE Deposit", callback_data: "txCheckerCbeBank" }],
+          [{ text: "Balance 100000000💰", callback_data: "balance" },{ text: "Transfer Balance 💳", callback_data: "transfer" },],
           [{ text: "How to play 🎮", web_app: { url: `${baseUrl}/how-to-play` } }, { text: "History 📜", callback_data: "history" }],
         ]
       }
